@@ -40,6 +40,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
   */
 define('DB_COLLATE', '');
 
+
+
 /**#@+
  * Clés uniques d’authentification et salage.
  *
@@ -84,7 +86,20 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', false);
+// Active le mode WP_DEBUG
+define('WP_DEBUG', true );
+
+// Active l’enregistrement dans le fichier /wp-content/debug.log
+define('WP_DEBUG_LOG', true);
+
+// Désactive l’affichage des erreurs et des avertissements
+define('WP_DEBUG_DISPLAY', false);
+@ini_set( 'display_errors', 0 );
+
+// Utiliser les versions en développement des fichiers JS et CSS de base (seulement nécessaire si vous modifiez ces fichiers de base)
+define( 'SCRIPT_DEBUG', true );
+
+/* That's all, stop editing! Happy publishing. */
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
@@ -94,3 +109,5 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+
+

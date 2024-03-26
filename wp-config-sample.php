@@ -40,6 +40,8 @@ define('DB_CHARSET', 'utf8');
   */
 define('DB_COLLATE', '');
 
+
+
 /**#@+
  * Clés uniques d’authentification et salage.
  *
@@ -94,3 +96,6 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+

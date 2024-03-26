@@ -1,0 +1,94 @@
+#menu-item-60 a{
+   background-color: #DC9F96;
+   color: #FFFFFF; 
+   cursor: pointer; 
+   height: 100%;
+   padding-bottom: 25px;
+   width: 195px;
+   justify-content: center;
+  
+   
+}
+#menu-item-60 a:hover{
+   background-color: #c02e44;
+}
+
+
+.elementor-57 .elementor-element.elementor-element-2763bba{
+   background-color: #E3D9D0;
+   clip-path: ellipse(100% 60% at 50% 40%)
+   
+}
+
+.elementor-57 .elementor-element.elementor-element-3511e1b:not(.elementor-motion-effects-element-type-background){
+   background-color: #E3D9D0;
+   clip-path: ellipse(100% 60% at 50% 40%)
+}
+
+.elementor-17 .elementor-element.elementor-element-17b1c41:not(.elementor-motion-effects-element-type-background){
+   background-color: #E3D9D0;
+   clip-path: ellipse(100% 60% at 50% 40%)
+
+}
+
+.elementor-element .elementor-widget-container{
+   line-height: 0;
+}
+
+.attachment-thumbnail.size-thumbnail.wp-image-379{
+   margin-left: -5px;
+   z-index: -1;
+}
+
+.wpcf7 .btn, input[type="submit"] {
+    background-color: #E0B9B4;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center; 
+    display: block;
+    margin : auto;
+}
+#ff2ddc4{
+   z-index: 1;
+}
+
+h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6{
+   color: #FFFFFF;
+}
+
+
+#wpcf7-f8-p17-o1 label, legend{
+   color: black;
+   
+}
+
+
+label, legend{
+
+   color: #FFFFFF;
+   line-height: 40px;
+
+   
+}
+
+.hfe-nav-menu li.menu-admin{
+   padding: 23px;
+}
+
+.menu-admin a{
+   color: black;
+}
+
+
+
+
+
+@media (max-width: 320px) {
+  
+}
+
+
+
+
+
+
